@@ -1,7 +1,7 @@
 {
   "name": "session1",
   "version": "1.0.0",
-  "description": "session simple test in nodejs with express js",
+  "description": "session simple test in nodejs with express-session",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,6 +14,7 @@
     "nodejs",
     "expressjs",
     "express",
+    "express-session",
     "js"
   ],
   "author": "Pedro Alves",
@@ -21,6 +22,7 @@
   "dependencies": {
     "body-parser": "^1.17.1",
     "express": "^4.15.2",
+    "express-session": "^1.15.2",
     "helmet": "^3.6.0"
   }
 }
